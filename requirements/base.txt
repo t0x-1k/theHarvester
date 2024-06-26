@@ -20,3 +20,4 @@ shodan==1.28.0
 slowapi==0.1.7
 uvicorn==0.21.1
 uvloop==0.17.0; platform_system != "Windows"
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
