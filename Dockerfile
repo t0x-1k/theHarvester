@@ -1,4 +1,4 @@
-FROM alpine:3.17.0
+FROM alpine:3.19
 LABEL maintainer="@jay_townsend1 & @NotoriousRebel1 (alpine @viardant)"
 RUN mkdir /app
 WORKDIR /app
@@ -12,3 +12,4 @@ RUN chmod +x ./*.py
 ENTRYPOINT ["/app/theHarvester.py"]
 ENTRYPOINT ["/app/restfulHarvest.py", "-H", "0.0.0.0", "-p", "80"]
 EXPOSE 80
+
