@@ -12,3 +12,4 @@ RUN chmod +x ./*.py
 ENTRYPOINT ["/app/theHarvester.py"]
 ENTRYPOINT ["/app/restfulHarvest.py", "-H", "0.0.0.0", "-p", "80"]
 EXPOSE 80
+
