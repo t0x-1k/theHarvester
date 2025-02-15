@@ -1,4 +1,4 @@
-FROM alpine:3.21.0
+FROM alpine:3.21.3
 LABEL maintainer="@jay_townsend1 & @NotoriousRebel1 (alpine @viardant)"
 RUN mkdir /app
 WORKDIR /app
